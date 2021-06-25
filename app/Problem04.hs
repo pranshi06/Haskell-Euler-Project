@@ -1,9 +1,11 @@
 module Problem04 where
 
+import Eulerproject
 import Data.List
 
-reverseInt = read . reverse . show
+-- reverseInt = read . reverse . show
 
+isPalindrome :: (Eq a, Read a, Show a) => a -> Bool
 isPalindrome n = n == reverseInt n
 
 -- ans = head [a*b | a <- [999,998..100], b <- [999,998..100], isPalindrome (a * b)]
