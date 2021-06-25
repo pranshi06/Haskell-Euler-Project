@@ -1,0 +1,9 @@
+Test suite test-euler: RUNNING...
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          ### Failure in: 0
+test/Test-Main.hs:8
+t1
+expected: 1
+ but got: 2
+Cases: 1  Tried: 1  Errors: 0  Failures: 1
+Test suite test-euler: FAIL
+Test suite logged to: /media/py/Common/Hasura/Haskell/Euler-project/dist-newstyle/build/x86_64-linux/ghc-8.10.5/Euler-project-0.1.0.0/t/test-euler/test/Euler-project-0.1.0.0-test-euler.log
